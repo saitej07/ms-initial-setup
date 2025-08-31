@@ -9,7 +9,8 @@ spec:
     - ReadWriteOnce
   storageClassName: manual
   hostPath:
-    path: "/run/desktop/mnt/host/c/temp/testfiles"
+    path: "/mnt/data/mysql"
+    # path: "/run/desktop/mnt/host/c/temp/testfiles"
     type: DirectoryOrCreate
 
 ---
